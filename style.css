@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+@media only screen and (min-width: 401px) {
+body{
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    width: 1440px;
+    height: 870px;
+    margin: 100px 250px 0px;
+}
+section{
+    display: flex; 
+    justify-content: space-between;
+    background-color: white;
+    margin: 2% 10%;
+    border-radius: 10px;
+}
+.draw{
+    width: 10px;
+}
+#woman{
+    margin-left: -80px;
+    padding-top: 120px;
+}
+#sombra{
+    margin-top: -700px;
+    margin-left: -570px;
+}
+#box{
+    position: absolute;
+    margin-top: -480px;
+    margin-left: -90px;
+}
+.rectangle{
+    width: 450px;
+    height: 1px;
+    background-color:#E8E8EA ;
+}
+.text{
+    margin-right: 70px;
+    padding: 80px 80px 0px 40px;
+    font-size: 20px;
+    color: #4B4C5F;
+}
+.text h1{
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+.text p{
+    padding: 20px 0px ;
+    
+}
+.arrow{
+    width: 15px;
+    display: flex;
+    justify-content: baseline;
+    margin-left: 520px;
+    margin-top: -15px;   
+    cursor: pointer;
+}
+    .question:hover{
+        font-weight: bold;
+    }
+.respost{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: -25px;
+    color: #858585;
+    display: none;
+}}
+
+@media only screen and (max-width: 400px) {
+    body{
+        background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+        width: 400px;
+        height: 1100px;
+    }
+    #woman{
+        width: 300px;
+        margin-top: -160px;
+        margin-left: 10px;
+    }
+    #sombra{
+        width: 320px;
+        margin-top: -490px;
+        margin-left: -1px;
+        
+    }
+    section{
+        background-color: white;
+        width: 315px;
+        padding: 25px;
+        margin-top: 230px;
+        margin-left: 15px;
+        border-radius: 10px;
+    }
+    #box{
+        width: 100px;
+        position: absolute;
+        margin-top: -160px;
+        margin-left: 10px;
+    }
+    .text{
+        margin-top: -30px;
+        text-align: center;
+        padding: 20px;
+    }
+    .text h1{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .text p{
+        padding: 20px 0px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .arrow{
+        display: flex;
+        margin-left: 280px;
+        margin-top: -10px;
+    }
+    .rectangle{
+        width: 200px;
+        height: 10px;
+        color: #4B4C5F;
+    }
+}
